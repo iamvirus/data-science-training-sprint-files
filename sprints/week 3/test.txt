@@ -1,0 +1,119 @@
+from hashlib import md5
+import pytest
+import pandas as pd 
+def remove_newlines(fname):
+    flist = open(fname).readlines()
+    return [s.rstrip('\n') for s in flist]
+s1=remove_newlines("questions/Output.txt")
+     
+def test_firstanswer():
+    assert md5(s1[0].encode()).hexdigest() =="261943f3a93b683ceeac658927f3923f"
+0.26
+
+
+def test_secondanswer():
+    assert md5(s1[1].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+
+def test_thirdanswer():
+    assert md5(s1[2].encode()).hexdigest() =="e85b79abfd76b7c13b1334d8d8c194a5"
+0.3
+
+
+def test_fourthanswer():
+    assert md5(s1[3].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+def test_fifthanswer():
+    assert md5(s1[4].encode()).hexdigest() =="e38502749f773d33ee02de5c2f61d6f3"
+0.04
+
+def test_sixthanswer():
+    assert md5(s1[5].encode()).hexdigest() =="f827cf462f62848df37c5e1e94a4da74"
+True
+
+def test_seventhanswer():
+    assert md5(s1[6].encode()).hexdigest() =="2723d092b63885e0d7c260cc007e8b9d"
+109
+
+
+def test_eighthanswer():
+    assert md5(s1[7].encode()).hexdigest() =="e96ed478dab8595a7dbda4cbcbee168f"
+218
+
+
+def test_ninthanswer():
+    assert md5(str(s1[8]).encode()).hexdigest() =="30565a8911a6bb487e3745c0ea3c8224"
+0.0
+
+
+def test_tenthanswer():
+    assert md5(s1[9].encode()).hexdigest() =="425c68af0cf47e2eec43bbc5d5b32dac"
+173.0
+
+
+def test_eleventhanswer():
+    assert md5(s1[10].encode()).hexdigest() =="ceb8e4ad2b4a9c8d725b53b59cbdd16e"
+791.42
+    
+
+def test_twelvethanswer():
+    assert md5(s1[11].encode()).hexdigest() =="f827cf462f62848df37c5e1e94a4da74"
+True
+
+
+def test_thirteenthanswer():
+    assert md5(s1[12].encode()).hexdigest() =="f827cf462f62848df37c5e1e94a4da74"
+True
+
+
+def test_fourteenthanswer():
+    assert md5(s1[13].encode()).hexdigest() =="6780987c038ab92332702313b6c3f64a"
+0.39
+
+
+def test_fifteenthanswer():
+    assert md5(s1[14].encode()).hexdigest() =="577ed366bb53ab276b9e5a042f9c36df"
+21.03
+
+def test_sixteenthanswer():
+    assert md5(s1[15].encode()).hexdigest() =="1a7fb4a08d7d8b4204fa8ff2e0d071f0"
+12.75
+
+
+def test_seventeenthanswer():
+    assert md5(s1[16].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+
+def test_eighteenthanswer():
+    assert md5(s1[17].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+
+def test_nineteenthanswer():
+    assert md5(s1[18].encode()).hexdigest() =="a3f2a910685f5b07f5f45a5fc1fdb389"
+0.37
+
+
+def test_twentythanswer():
+    assert md5(s1[19].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+
+def test_twentyfirstanswer():
+    assert md5(s1[20].encode()).hexdigest() =="b0888d686e89bf883fe90b85c9220b47"
+0.16
+
+
+def test_twentysecondanswer():
+    assert md5(s1[21].encode()).hexdigest() =="f8320b26d30ab433c5a54546d21f414c"
+False
+
+
+ 
+
+ 
+
+ 

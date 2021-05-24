@@ -1,0 +1,49 @@
+Welcome to the world of IPL.  Here is the place where all players from different cricketing nations comes to play the wonderful game of cricket.Here,the data set is available from season 2008-2019. From this data set we could come up with lot of insights,where here we perform Exploratory Data Analysis to get important information from the data set .
+
+1. suppose you got the answer to the 1st question as 56  please enter it into answer.csv in solution column as 
+
+2. Likewise, you should enter all your answers, and all answers will be integers without a decimal point. 
+
+Questions-
+
+For all the below questions, perform the calculations in your local instance and paste the output in the solution column. 
+
+1. How many games have happened across all  the seasons so far?
+
+2. How many seasons has IPL seen so far?
+
+3. Teams compete to win this makes their fans happy. So what are the top three teams that have won the most number of matches played and sum up the those matches from these top three teams.
+
+4. Identify the teams that have registered at least a single win in IPL so far.How many such teams are there since the inception of IPL.
+
+5. From the given data set get the win percentage of  teams "Mumbai Indians","Sunrisers Hyderabad","Kings XI Punjab"(Get percentage as integer). What is the average win percentage of these three teams together.
+ 
+6. In an tournament win percentage of a particular team tells how successful they are in that tournament. Get the count of teams having win percentage greater than or equal to 50%. 
+
+7. Which stadium has hosted the most number of IPL matches till date and get the count of those matches.
+
+8. How many stadiums have hosted atleast one IPL game?
+
+9. In the game of cricket Umpire plays an important role by giving some important decisions. In the given data sets get top three umpires who have appeared in  most number of matches and get the count of those matches and add them up.(Note-Use only column Umpire1 and Umpire2)
+
+10. Get the count of all umpires so far present in at least one IPL game .(Note-Use only columns Umpire1 and Umpire2)
+
+11.In a T-20 tournament even though scoring more boundaries(4's and 6's) is important, still runs scored from other than boundaries(1's,2's,3's)plays an vital role in deciding match winner. So,from the given data sets get the total sum of runs (excluding runs from fours and sixes)  from batsmen runs from all the seasons.
+
+12. Get the count of individual seasons whose sum of runs(excluding runs from fours and sixes)  is greater than or equal to 10,000. 
+
+13. In a cricket tournament winning any game is great,but winning with higher margins boosts the team's confidence and it adds advantage for the team in an tournament. So,from the given data set get the maximum win margin by runs from all the seasons and give the sum of all those runs.
+
+14. Get the season where win margin by runs is maximum and post it in the solution column.
+
+15. In any sports there will be rivalries between teams where matches between them creates more interest  . In the same way IPL also has rivalry where matches between CSK(Chennai Super Kings) an MI(Mumbai Indians) creates even more curiosity in the tournament.  From the given data set get the sum of total player of match awards between "Mumbai Indians" and "Chennai Super Kings" throughout the IPL Tournament.
+
+16. How many players have won the player of the match award more than twice between "Mumbai Indians" and "Chennai Super KIngs".
+
+17. Even though cricket is a team game performance from individual players matters a lot where it affects the result of the game. So,from the given data sets get the count of number of fifties scored by individual players throughout the IPL Tournament. 
+
+18. Get the count of all  individual players who have scored at least one fifty in the IPL Tournament.
+
+19. Scoring hundred for a player in any game is a special moment,where the chances for a team to win based on that individual's performance is high.So,from the given data set get the overall count of total number of hundreds scored by the individual players for each teams.
+
+20. Get the count of teams where the individual players have registered more than 10 hundreds for that particular team.    
